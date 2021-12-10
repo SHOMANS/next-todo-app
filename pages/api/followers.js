@@ -48,7 +48,7 @@ export default function handler(req, res) {
           },
           phone: "(607)-951-1674",
           cell: "(336)-101-3783",
-          id: 1,
+          id: "1",
           picture: {
             large: "https://randomuser.me/api/portraits/women/54.jpg",
             medium: "https://randomuser.me/api/portraits/med/women/54.jpg",
@@ -102,7 +102,7 @@ export default function handler(req, res) {
           },
           phone: "(270)-510-0872",
           cell: "(850)-540-4182",
-          id: 2,
+          id: "2",
           picture: {
             large: "https://randomuser.me/api/portraits/women/64.jpg",
             medium: "https://randomuser.me/api/portraits/med/women/64.jpg",
@@ -156,7 +156,7 @@ export default function handler(req, res) {
           },
           phone: "949-311-601",
           cell: "696-035-904",
-          id: 3,
+          id: "3",
           picture: {
             large: "https://randomuser.me/api/portraits/women/89.jpg",
             medium: "https://randomuser.me/api/portraits/med/women/89.jpg",
@@ -210,7 +210,7 @@ export default function handler(req, res) {
           },
           phone: "073-036-9032",
           cell: "122-290-0954",
-          id: 4,
+          id: "4",
           picture: {
             large: "https://randomuser.me/api/portraits/women/27.jpg",
             medium: "https://randomuser.me/api/portraits/med/women/27.jpg",
@@ -264,7 +264,7 @@ export default function handler(req, res) {
           },
           phone: "(865)-963-8680",
           cell: "(963)-754-5134",
-          id: 5,
+          id: "5",
           picture: {
             large: "https://randomuser.me/api/portraits/men/48.jpg",
             medium: "https://randomuser.me/api/portraits/med/men/48.jpg",

@@ -7,17 +7,20 @@ function FollowersListComponent({ followers }) {
       <div>
         {followers.map((follower, index) => (
           <div
-            className={styles.followerItem}
             data-testid={`follower-card-${index}`}
             key={`follower-card-${index}`}
           >
-            <img alt={follower.name.first} src={follower.picture.medium} />
-            <div className={styles.followersDetails}>
-              <div className={styles.followerItemName}>
-                <h4>{follower.name.first}</h4> <h4>{follower.name.last}</h4>
+            <Link href={`followers/${follower.id}`}>
+              <div className={styles.followerItem}>
+                <img alt={follower.name.first} src={follower.picture.medium} />
+                <div className={styles.followersDetails}>
+                  <div className={styles.followerItemName}>
+                    <h4>{follower.name.first}</h4> <h4>{follower.name.last}</h4>
+                  </div>
+                  <p>{follower.login.username}</p>
+                </div>
               </div>
-              <p>{follower.login.username}</p>
-            </div>
+            </Link>
           </div>
         ))}
       </div>

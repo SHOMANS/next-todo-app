@@ -3,7 +3,6 @@ import Followers from "../../components/Followers";
 export default function index({ followers }) {
   return (
     <div>
-      {console.log(followers)}
       <Followers followers={followers} />
     </div>
   );
