@@ -11,8 +11,6 @@ function FollowersListComponent({ followers }) {
             data-testid={`follower-card-${index}`}
             key={`follower-card-${index}`}
           >
-            {console.log(follower.picture)}
-            {console.log(follower.picture.medium)}
             <img alt={follower.name.first} src={follower.picture.medium} />
             <div className={styles.followersDetails}>
               <div className={styles.followerItemName}>
